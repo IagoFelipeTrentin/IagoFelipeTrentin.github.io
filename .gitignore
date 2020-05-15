@@ -1,0 +1,6 @@
+/.project
+_site
+.DS_Store
+*.swp
+.sass-cache
+*~
