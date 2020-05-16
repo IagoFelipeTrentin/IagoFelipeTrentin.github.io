@@ -86,7 +86,7 @@ post_class: post-template
 
 
                 {% if page.video || page.igtv %}
-                    <h3 class="font-weight-bold"><i class="fas fa-comments"></i>&nbsp;Comments</h3>
+                    <h2 class="font-weight-bold"><i class="fas fa-comments"></i>&nbsp;Comments</h2>
                 {% endif %}
                 {% if page.igtv %}
                     <span class="tags mb-4">
@@ -144,7 +144,7 @@ post_class: post-template
 
             <!-- Post Categories -->
             <div class="after-post-cats">
-                {% if page.categories > 1 %}
+                {% if page.categories %}
                 <i class="fas fa-archive text-white-50"></i>
                 {% endif %}
                 <ul class="tags mb-4">
@@ -160,7 +160,7 @@ post_class: post-template
 
             <!-- Post Tags -->
             <div class="after-post-tags">
-                {% if page.tags > 1 %}
+                {% if page.tags %}
                 <i class="fas fa-tags text-white-50"></i>
                 {% endif %}
                 <ul class="tags">
