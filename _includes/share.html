@@ -23,7 +23,7 @@
 
     </ul>
 
-    {% if page.video || page.igtv %}
+    {% if page.video or page.igtv %}
     <div class="sep">
     </div>
     <p>
@@ -33,14 +33,14 @@
     <ul>
         {% if page.igtv %}
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://iaco.me/instagram">
+            <a target="_blank" href="https://www.instagram.com/tv/{{ page.igtv }}">
                 <i class="fab fa-instagram"></i>
             </a>
         </li>
         {% endif %}
         {% if page.video }}
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://iaco.me/youtube">
+            <a target="_blank" href="https://www.youtube.com/watch?v={{ page.video }}">
                 <i class="fab fa-youtube"></i>
             </a>
         </li>
