@@ -344,14 +344,14 @@ span.post-read-more a:hover {
     font-family: 'Noto Serif', Merriweather;
     font-size: 1.1rem;
     line-height: 1.84;
-    color: rgba(0, 0, 0, .8);
+    color: rgba(255, 255, 255, .8);
 }
 
 blockquote {
     border-left: 4px solid #00ab6b;
     padding: 0 20px;
     font-style: italic;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .55);
 }
 
 .article-post p,
@@ -868,7 +868,7 @@ iframe {
 
 .spoiler {
     color: transparent;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     transition: all .4s;
     cursor: pointer;
     position: relative;
