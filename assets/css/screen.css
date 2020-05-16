@@ -441,9 +441,9 @@ blockquote {
     }
 
     .alertbar input[type="email"] {
-        margin-right: 0px !Important;
+        margin-right: 0px !important;
         display: block;
-        border-right: 1px solid #ddd !Important;
+        border-right: 1px solid #ddd !important;
         margin-bottom: 10px;
     }
 
@@ -581,13 +581,12 @@ ul.tags li a:hover {
 
 .alertbar input[type="email"] {
     background-color: #333333;
-    border: 1px solid #888888;
     color: #ffffff;
     font-size: 0.85rem;
     padding: 3px 5px 3px 10px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
-    border: 1px solid #ddd;
+    border: 1px solid #888888;
     border-right: 0;
     margin-right: -10px;
     height: 34px;
