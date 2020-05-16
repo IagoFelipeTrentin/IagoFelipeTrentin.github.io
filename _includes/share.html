@@ -31,16 +31,20 @@
     </p>
     {% endif %}
     <ul>
+        {% if page.igtv %}
         <li class="ml-1 mr-1">
             <a target="_blank" href="https://www.instagram.com/tv/{{ page.igtv }}">
                 <i class="fab fa-instagram"></i>
             </a>
         </li>
+        {% endif %}
+        {% if page.video %}
         <li class="ml-1 mr-1">
             <a target="_blank" href="https://www.youtube.com/watch?v={{ page.video }}">
                 <i class="fab fa-youtube"></i>
             </a>
         </li>
+        {% endif %}
     </ul>
 
     <!-- {% if page.comments != false %}
