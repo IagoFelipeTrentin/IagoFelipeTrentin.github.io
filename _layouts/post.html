@@ -58,13 +58,14 @@ post_class: post-template
             <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% endif %}
 
+            {% endif %}
+
             {% if page.video %}
             <div class="video-responsive">
             <iframe width="450" height="250" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             {% endif %}
 
-            {% endif %}
             <!-- End Featured Image -->
 
             <!-- Post Content -->
