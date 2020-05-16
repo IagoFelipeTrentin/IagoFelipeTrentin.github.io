@@ -170,7 +170,7 @@ ga('send', 'pageview');
                 {% endfor %}
             {% else %}
                 {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
+                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} • {{ category[1].size }}</a>
                 {% endfor %}
             {% endif %}
             {% assign categories_list = nil %}
