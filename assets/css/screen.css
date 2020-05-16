@@ -469,7 +469,7 @@ blockquote {
     .alertbar input[type="email"] {
         margin-right: 0px !important;
         display: block;
-        /* border-right: 1px solid #ddd !important; */
+        border-right: 1px solid #888888 !important;
         margin-bottom: 10px;
     }
 
@@ -621,7 +621,7 @@ ul.tags li a:hover {
     /* border-bottom-left-radius: 3px; */
     border-radius: 3px;
     border: 1px solid #888888;
-    border-right: 0;
+    /* border-right: 0; */
     margin-right: -10px;
     height: 34px;
     letter-spacing: 0.5px;
