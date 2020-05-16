@@ -142,7 +142,9 @@ post_class: post-template
 
             <!-- Post Categories -->
             <div class="after-post-cats">
+                {% if page.categories > 1 %}
                 <i class="fas fa-archive text-white-50"></i>
+                {% endif %}
                 <ul class="tags mb-4">
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
@@ -156,7 +158,9 @@ post_class: post-template
 
             <!-- Post Tags -->
             <div class="after-post-tags">
+                {% if page.tags > 1 %}
                 <i class="fas fa-tags text-white-50"></i>
+                {% endif %}
                 <ul class="tags">
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
