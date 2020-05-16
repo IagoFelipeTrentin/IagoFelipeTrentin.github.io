@@ -161,7 +161,7 @@ post_class: post-template
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             {% if page.previous.url %}
-            <a class="prev d-block col-md-6" href="{{ site.baseurl }}{{page.previous.url}}"> <i class="fas fa-chevron-circle-left"></i> {{page.previous.title}}<br></a>
+            <a class="prev d-block col-md-6 mb-3" href="{{ site.baseurl }}{{page.previous.url}}"> <i class="fas fa-chevron-circle-left"></i> {{page.previous.title}}</a>
             {% else %}
             <a class="prev d-block col-md-6"></a>
             {% endif %}
