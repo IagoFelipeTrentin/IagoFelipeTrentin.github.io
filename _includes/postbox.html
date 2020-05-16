@@ -17,11 +17,11 @@
                 {% endif %}
             </a>
         </div>
-        <div class="card-body bg-dark">
+        <div class="card-body bg-transparent">
             <h2 class="card-title">
                 <a class="text-light" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 {% if post.rating %}
-                <div class="mb-2 mt-2 font-weight-normal bg-dark">
+                <div class="mb-2 mt-2 font-weight-normal bg-transparent">
                 {% include star_rating_postbox.html %}
                 </div>
                 {% endif %}
