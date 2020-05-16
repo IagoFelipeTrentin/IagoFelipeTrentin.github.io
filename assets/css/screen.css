@@ -580,6 +580,8 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="email"] {
+    background-color: #333333;
+    border: 1px solid #ffffff;
     font-size: 0.85rem;
     padding: 3px 5px 3px 10px;
     border-top-left-radius: 3px;
@@ -593,8 +595,8 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #1C9963;
-    border: 1px solid #1C9963;
+    background-color: #5294db;
+    border: 1px solid #356eab;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;
@@ -609,23 +611,23 @@ ul.tags li a:hover {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .form-control:-moz-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .form-control::-moz-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .form-control:-ms-input-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .form-control::-ms-input-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .authorpage h1 {
