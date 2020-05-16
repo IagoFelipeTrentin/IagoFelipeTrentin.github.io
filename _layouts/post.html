@@ -83,15 +83,16 @@ post_class: post-template
                 <!-- End Toc -->
                 {{content}}
 
-                <div class="row">
-                    {% if page.tweet %}
-                    <center>
-                    <div class="col-12 text-center mt-3 mb-4">
-                    <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr"></p><a href="https://twitter.com/IACO_me/status/{{ page.tweet }}"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                    </center>
-                    {% endif %}
 
+                {% if page.tweet %}
+                <center>
+                <div class="mt-3 mb-4">
+                <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr"></p><a href="https://twitter.com/IACO_me/status/{{ page.tweet }}"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                </center>
+                {% endif %}
+
+                <div class="row">
                     <div class="col-lg-7 col-12 text-center" style="margin-left: -10px;">
                     {% if page.igtv %}
                     <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/tv/{{ page.igtv }}" data-instgrm-version="12"></blockquote><script async  src="//www.instagram.com/embed.js"></script>
