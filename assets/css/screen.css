@@ -11,6 +11,11 @@ License: https://www.wowthemes.net/freebies-license/
     padding: 1rem 0rem;
 }
 
+html {
+    background: #333333;
+    color: #ffffff;
+}
+
 a {
     color: #00ab6b;
     transition: all 0.2s;
@@ -34,7 +39,7 @@ pre {
     background: #333;
     border-radius: 0px;
     line-height: 1.6;
-    color: #fff;
+    color: #333;
     margin-bottom: -rem;
 }
 
