@@ -81,15 +81,19 @@ post_class: post-template
                     </div>
                 {% endif %}
                 <!-- End Toc -->
+
                 {{content}}
 
+
                 {% if page.video || page.igtv %}
-                    Comment on
+                    <h3 class="font-weight-bold"><i class="fas fa-comments"></i>&nbsp;Comments</h3>
                 {% endif %}
                 {% if page.igtv %}
-                    <a target="_blank" href="https://www.instagram.com/tv/{{ page.igtv }}">
-                        <i class="fab fa-instagram"></i>&nbsp;Instagram
-                    </a>
+                    <span class="tags mb-4">
+                        <a class="smoothscroll" target="_blank" href="https://www.instagram.com/tv/{{ page.igtv }}">
+                            <i class="fab fa-instagram"></i>&nbsp;Instagram
+                        </a>
+                    </span>
                 {% endif %}
                 {% if page.video & page.igtv %}
                     or
