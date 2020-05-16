@@ -37,6 +37,10 @@ hr {
     position: absolute;
 }
 
+blockquote iframe {
+    background: rgba(0, 0, 0, 0);
+}
+
 a {
     color: #5294db;
     transition: all 0.2s;
