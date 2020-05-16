@@ -68,7 +68,7 @@ post_class: post-template
 
             <!-- End Featured Image -->
 
-            <!-- Post Content igtv: B9fcXvVh_03 -->
+            <!-- Post Content -->
             <div class="article-post">
                 <!-- Toc if any -->
                 {% if page.toc %}
@@ -94,9 +94,6 @@ post_class: post-template
                             <i class="fab fa-instagram"></i>&nbsp;Instagram
                         </a>
                     </span>
-                {% endif %}
-                {% if page.video & page.igtv %}
-                    or
                 {% endif %}
                 {% if page.video %}
                     <a target="_blank" href="https://www.youtube.com/watch?v={{ page.video }}">
