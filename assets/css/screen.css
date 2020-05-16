@@ -607,10 +607,11 @@ ul.tags li a:hover {
 
 .alertbar input[type="email"] {
     font-family: Segoe UI, Tahoma, Arial, 'Font Awesome 5 Free';
+    width: 150px;
     background-color: #333333;
     color: #ffffff;
     font-size: 0.85rem;
-    padding: 3px 5px 3px 10px;
+    padding: 3px 10px 3px 10px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     border: 1px solid #888888;
