@@ -50,12 +50,18 @@ post_class: post-template
             <!-- End Adsense -->
 
             <!-- Post Featured Image -->
-            {% if page.image%}
+            {% if page.image %}
 
             {% if site.lazyimages == "enabled" %}
             <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% else %}
             <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+            {% endif %}
+
+            {% if page.video %}
+            <div class="video-responsive">
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             {% endif %}
 
             {% endif %}
@@ -74,10 +80,20 @@ post_class: post-template
                     </div>
                 {% endif %}
                 <!-- End Toc -->
-                <div class="video-responsive">
-                <iframe width="450" height="250" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
                 {{content}}
+
+                {% if page.tweet %}
+                <br>
+                <center>
+                <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr"></p><a href="https://twitter.com/IACO_me/status/{{ page.tweet }}"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </center>
+                {% endif %}
+
+                {% if page.tiktok %}
+                <center>
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@iaco.me/video/{{ page.tiktok }}" data-video-id="{{ page.tiktok }}" style="max-width: 605px;min-width: 325px;" ><script async src="https://www.tiktok.com/embed.js"></script>
+                </center>
+                {% endif %}
             </div>
 
             <!-- Rating -->
