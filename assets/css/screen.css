@@ -266,7 +266,7 @@ span.post-read-more a:hover {
     font-size: 0.8rem;
     border-radius: 30px;
     overflow: hidden;
-    border: 1px solid rgba(0, 0, 0, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     min-width: 180px;
 }
 
@@ -581,7 +581,8 @@ ul.tags li a:hover {
 
 .alertbar input[type="email"] {
     background-color: #333333;
-    border: 1px solid #ffffff;
+    border: 1px solid #888888;
+    color: #ffffff;
     font-size: 0.85rem;
     padding: 3px 5px 3px 10px;
     border-top-left-radius: 3px;
