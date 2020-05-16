@@ -820,6 +820,7 @@ iframe {
         border-radius: 0;
         background-image: url(../images/bg-masthead.jpg);
         background-size: cover;
+        background-position: center;
     }
 
     .jumbotron.fortags .col-md-4 {
@@ -838,6 +839,7 @@ iframe {
     border-radius: 0;
     background-image: url(../images/bg-masthead.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .jumbotron.fortags a {
