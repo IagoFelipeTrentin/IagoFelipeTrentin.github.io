@@ -344,6 +344,11 @@ span.post-read-more a:hover {
     margin-bottom: 1rem;
 }
 
+.mainheading .lead {
+    font-family: Times New Roman;
+    font-style: italic;
+}
+
 .footer {
     border-top: 1px solid rgba(0, 0, 0, .05) !important;
     padding-top: 15px;
