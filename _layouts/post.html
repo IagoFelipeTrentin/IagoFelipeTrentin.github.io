@@ -88,18 +88,23 @@ post_class: post-template
                 {% if page.video || page.igtv %}
                     <h2 class="font-weight-bold"><i class="fas fa-comments"></i>&nbsp;Comments</h2>
                 {% endif %}
+
+                <div class="row">
                 {% if page.igtv %}
-                    <span class="tags mb-4">
+                    <div class="col-6">
                         <a class="smoothscroll" target="_blank" href="https://www.instagram.com/tv/{{ page.igtv }}">
-                            <i class="fab fa-instagram"></i>&nbsp;Instagram
+                            <input type="text" class="form-control text-small launch-modal-search bg-dark" placeholder=" &#xf16d; Login Instagram" style="font-family: Segoe UI, Arial, 'Font Awesome 5 Free'; font-weight: 501; color: #ffffff;">
                         </a>
-                    </span>
+                    </div>
                 {% endif %}
                 {% if page.video %}
-                    <a target="_blank" href="https://www.youtube.com/watch?v={{ page.video }}">
-                        <i class="fab fa-youtube"></i>&nbsp;YouTube
-                    </a>
+                    <div class="col-6">
+                        <a target="_blank" href="https://www.youtube.com/watch?v={{ page.video }}">
+                            <input type="text" class="form-control text-small launch-modal-search bg-dark" placeholder=" &#xf167; Login YouTube" style="font-family: Segoe UI, Arial, 'Font Awesome 5 Free'; font-weight: 501; color: #ffffff;">
+                        </a>
+                    </div>
                 {% endif %}
+                </div>
 
                 {% if page.tweet %}
                 <center>
