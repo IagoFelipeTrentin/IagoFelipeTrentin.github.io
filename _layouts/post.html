@@ -84,8 +84,7 @@ post_class: post-template
                 {{content}}
 
 
-                {% if page.video %}
-                </div>
+                {% if page.video or page.igtv %}
                 Comments :
                 {% endif %}
                 {% if page.igtv %}
