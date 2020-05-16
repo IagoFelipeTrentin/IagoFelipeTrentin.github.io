@@ -84,12 +84,15 @@ post_class: post-template
                 {{content}}
 
                 {% if page.video || page.igtv %}
-                Comment:
+                    Comment on
                 {% endif %}
                 {% if page.igtv %}
                     <a target="_blank" href="https://www.instagram.com/tv/{{ page.igtv }}">
                         <i class="fab fa-instagram"></i>
                     </a>
+                {% endif %}
+                {% if page.video && page.igtv %}
+                    or
                 {% endif %}
                 {% if page.video %}
                     <a target="_blank" href="https://www.youtube.com/watch?v={{ page.video }}">
