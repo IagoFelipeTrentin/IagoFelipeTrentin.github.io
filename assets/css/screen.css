@@ -413,8 +413,8 @@ blockquote {
 
     .alertbar {
         position: relative !Important;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         box-shadow: none !Important;
         padding-right: 14px !Important;
     }
@@ -570,7 +570,7 @@ ul.tags li a:hover {
     background-color: #343a40;
     color: #ffffff;
     width: 100%;
-    padding: 14px 0;
+    padding: 10px 0;
     z-index: 1;
     display: none;
 }
