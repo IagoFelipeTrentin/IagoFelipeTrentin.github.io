@@ -22,9 +22,9 @@ hr {
 
 .video-responsive {
     text-align: center;
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
     height: 0;
     margin-bottom: 25px;
 }
