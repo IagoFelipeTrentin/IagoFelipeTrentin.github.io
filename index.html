@@ -128,7 +128,7 @@ title: Index
                         </div>
                       </a>
                     </div>
-                    {% assign max_number = max_number | minus: 1 %}
+                    {% assign max_number = decrement max_number %}
                 {% endif %}
 
             {% endfor %}
