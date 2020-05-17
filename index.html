@@ -113,25 +113,22 @@ title: Index
             {% assign max_number = 2 %}
             {% for post in site.posts %}
 
-                {% if post.featured == true %}
-                    {% if decrement max_number >= 0 %}
-                        <div class="col-md-6 mb-3 mb-md-0">
-                          <a target="_blank" href="https://iaco.me/youtube">
-                            {% if post.video %}
-                            <div class="card pt-4 h-100" style="background-image: url('https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
-                            {% else %}
-                            <div class="card pt-4 h-100">
-                            {% endif %}
-                              <div class="card-body text-center mt-3">
-                                <i class="fas fa-share fa-2x text-white mt-2 mb-4" style="text-shadow: 0px 0px 5px black"></i>
-                                <div class="text-white" style="text-shadow: 0px 0px 9px black, 0px 0px 6px black, 0px 0px 3px black;">{{ post.title | strip_html | truncatewords:10 }}</div>
-                              </div>
-                            </div>
-                          </a>
+                {% if post.featured == true && max_number > 0 %}
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <a target="_blank" href="https://iaco.me/youtube">
+                        {% if post.video %}
+                        <div class="card pt-4 h-100" style="background-image: url('https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                        {% else %}
+                        <div class="card pt-4 h-100">
+                        {% endif %}
+                          <div class="card-body text-center mt-3">
+                            <i class="fas fa-share fa-2x text-white mt-2 mb-4" style="text-shadow: 0px 0px 5px black"></i>
+                            <div class="text-white" style="text-shadow: 0px 0px 9px black, 0px 0px 6px black, 0px 0px 3px black;">{{ post.title | strip_html | truncatewords:10 }}</div>
+                          </div>
                         </div>
-                    {% else %}
-                        {% break %}
-                    {% endif %}
+                      </a>
+                    </div>
+                    {% assign max_number = max_number | minus: 1 %}
                 {% endif %}
 
             {% endfor %}
