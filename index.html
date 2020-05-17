@@ -115,7 +115,7 @@ title: Index
 
                 {% if post.featured == true and max_number > 0 %}
                     <div class="col-md-6 mb-3 mb-md-0">
-                      <a target="_blank" href="https://iaco.me/youtube">
+                      <a target="_blank" href="{{ site.baseurl }}{{ post.url }}">
                         {% if post.video %}
                         <div class="card pt-4 h-100" style="background-image: url('https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
                         {% else %}
