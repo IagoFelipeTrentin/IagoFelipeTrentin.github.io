@@ -10,11 +10,11 @@ permalink: "/redirect.html"
 <html>
     <head>
         <title>IΛCO VIVΛCI</title>
-        <meta http-equiv="refresh" content="0; url=https://whereby.com/iaco.me">
-        <script type="text/javascript"> window.location.href = "https://whereby.com/iaco.me" </script>
+        <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
+        <script type="text/javascript"> window.location.href = "{{ page.redirect }}" </script>
     </head>
     <body>
-        If you are not redirected automatically, click this <a href="https://whereby.com/iaco.me">link</a>.
+        If you are not redirected automatically, click this <a href="{{ page.redirect }}">link</a>.
     </body>
 </html>
 
