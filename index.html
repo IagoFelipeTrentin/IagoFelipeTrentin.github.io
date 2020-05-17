@@ -113,7 +113,7 @@ title: Index
             {% assign max_number = 2 %}
             {% for post in site.posts %}
 
-                {% if post.featured == true && max_number > 0 %}
+                {% if post.featured == true and max_number > 0 %}
                     <div class="col-md-6 mb-3 mb-md-0">
                       <a target="_blank" href="https://iaco.me/youtube">
                         {% if post.video %}
@@ -128,7 +128,7 @@ title: Index
                         </div>
                       </a>
                     </div>
-                    {% assign max_number = decrement max_number %}
+                    {% assign max_number = max_number | minus: 1 %}
                 {% endif %}
 
             {% endfor %}
