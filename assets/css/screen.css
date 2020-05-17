@@ -7,8 +7,12 @@ License: https://www.wowthemes.net/freebies-license/
     html { font-size:18px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
 }
+
 .mainheading {
     padding: 1rem 0rem;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    padding-left: 60px;
 }
 
 html {
@@ -81,7 +85,7 @@ pre {
     color: #ffffff;
     min-height: 60vh;
     padding-top: 1.5rem;
-    margin-top: 57px;
+    /* margin-top: 57px; */
     transition: all 0.4s;
 }
 
