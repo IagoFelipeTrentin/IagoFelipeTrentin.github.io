@@ -128,9 +128,12 @@ post_class: post-template
 
             <!-- Post Categories -->
             <div class="after-post-cats">
-                <ul class="tags mb-4">
+                <ul class="tags mb-4 list-over">
                     {% if page.categories %}
                     <i class="fas fa-archive text-white-50"></i>&nbsp;
+                    <span style="position: absolute; right:0; padding-top: 3px;" onclick="$(this).parent().toggleClass('tags-over');">
+                        <i class="fas fa-plus-circle text-white-50"></i>
+                    </span>
                     {% endif %}
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
@@ -144,9 +147,12 @@ post_class: post-template
 
             <!-- Post Tags -->
             <div class="after-post-tags">
-                <ul class="tags">
+                <ul class="tags list-over">
                     {% if page.tags %}
                     <i class="fas fa-tags text-white-50"></i>&nbsp;
+                    <span style="position: absolute; right:0; padding-top: 3px;" onclick="$(this).parent().toggleClass('tags-over');">
+                        <i class="fas fa-plus-circle text-white-50"></i>
+                    </span>
                     {% endif %}
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
