@@ -1,4 +1,5 @@
 _site
+.project
 .DS_Store
 *.swp
 .sass-cache
