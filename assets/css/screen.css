@@ -26,6 +26,11 @@ hr {
     border-color: rgba(255, 255, 255, .5);
 }
 
+.list-over {
+    max-height: 40px;
+    overflow: hidden;
+}
+
 .video-responsive {
     text-align: center;
     overflow: hidden;
