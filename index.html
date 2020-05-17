@@ -110,56 +110,30 @@ title: Index
   <section id="about" class="about-section text-center bg-black">
     <div class="container">
         <div class="row mb-5">
-
+            {% assign max_number = 2 %}
             {% for post in site.posts %}
 
-                {% if post.featured == true %}
-
-                    {% include featuredbox.html %}
-
+                {% if post.featured == true && max_number > 0 %}
+                    <div class="col-md-4 mb-3 mb-md-0">
+                      <a target="_blank" href="https://iaco.me/youtube">
+                        {% if post.video %}
+                        <div class="card py-4 h-100" style="background-image: url('https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg'); background-size: 100%; background-repeat: no-repeat;">
+                        {% else %}
+                        <div class="card py-4 h-100">
+                        {% endif %}
+                          <div class="card-body text-center">
+                            <i class="fab fa-youtube fa-2x text-white mb-2"></i>
+                            <h5 class="text-white m-0">A</h5>
+                            <hr class="my-4">
+                            <div class="text-white">{{ post.title | strip_html | truncatewords:10 }}</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                {% assign max_number = max_number + 1 %}
                 {% endif %}
 
             {% endfor %}
-
-            <div class="col-md-4 mb-3 mb-md-0">
-              <a target="_blank" href="https://iaco.me/youtube">
-                <div class="card py-4 h-100" style="background-image: url('assets/images/vegan.png'); background-size: 100%; background-repeat: no-repeat;">
-                  <div class="card-body text-center">
-                    <i class="fab fa-youtube fa-2x text-white mb-2"></i>
-                    <h5 class="text-white m-0">Great adventures here</h5>
-                    <hr class="my-4">
-                    <div class="text-white">IΛCO VIVΛCI</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <a target="_blank" href="https://iaco.me/youtube">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fab fa-youtube fa-2x text-white mb-2"></i>
-                  <h5 class="text-white m-0">Great adventures here</h5>
-                  <hr class="my-4">
-                  <div class="text-white">IΛCO VIVΛCI</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <a target="_blank" href="https://iaco.me/instagram">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fab fa-instagram fa-2x text-white mb-2"></i>
-                  <h5 class="text-white m-0">Follow next adventures</h5>
-                  <hr class="my-4">
-                  <div class="text-white">@iaco.me</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
         </div>
 
         <div class="row">
