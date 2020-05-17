@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta property="og:description" content="IΛCO VIVΛCI (www.iaco.me)">
-    <meta property="og:image" content="https://iaco.me/img/IACO_big_black.jpg">
+    <meta property="og:image" content="https://iaco.me/assets/images/iaco-logo-share.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -96,16 +96,69 @@
             <h5 class="text-white mx-auto mt-2 mb-2">for</h5>
             <h5 class="text-white mx-auto mt-2 mb-5">LIFE</h5>
         </i>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">VIVΛCI.LIFE</a>
+        <a id="posts" href="#posts" class="btn btn-primary js-scroll-trigger"><i class="fas fa-2x fa-angle-double-down"></i></a>
       </div>
     </div>
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center">
+  <section id="about" class="about-section text-center bg-black">
     <div class="container">
+        <div class="row mb-5">
+
+            {% for post in site.posts %}
+
+                {% if post.featured == true %}
+
+                    {% include featuredbox.html %}
+
+                {% endif %}
+
+            {% endfor %}
+
+            <div class="col-md-4 mb-3 mb-md-0">
+              <a target="_blank" href="https://iaco.me/youtube">
+                <div class="card py-4 h-100" style="background-image: url('assets/images/vegan.png'); background-size: 100%; background-repeat: no-repeat;">
+                  <div class="card-body text-center">
+                    <i class="fab fa-youtube fa-2x text-white mb-2"></i>
+                    <h5 class="text-white m-0">Great adventures here</h5>
+                    <hr class="my-4">
+                    <div class="text-white">IΛCO VIVΛCI</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <a target="_blank" href="https://iaco.me/youtube">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fab fa-youtube fa-2x text-white mb-2"></i>
+                  <h5 class="text-white m-0">Great adventures here</h5>
+                  <hr class="my-4">
+                  <div class="text-white">IΛCO VIVΛCI</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <a target="_blank" href="https://iaco.me/instagram">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fab fa-instagram fa-2x text-white mb-2"></i>
+                  <h5 class="text-white m-0">Follow next adventures</h5>
+                  <hr class="my-4">
+                  <div class="text-white">@iaco.me</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
         <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-7 mx-auto mt-4 mb-4">
                 <h6 class="text-white-50 mb-2">I Love Life... I am</h6>
                 <h1 class="text-white mb-4"><b>VIVΛCI<span class="text-white-50">TY</span></b></h1>
                 <i>
@@ -117,8 +170,10 @@
                 </i>
                 <a href="#projects" class="btn btn-primary js-scroll-trigger">My people & Our world</a>
             </div>
+            <div class="col-lg-4 mx-auto" style="margin-top: auto; margin-bottom: auto;">
+                <img src="assets/images/iaco-alpha.png" class="img-fluid mb-3" alt="" style="max-width: 200px;">
+            </div>
         </div>
-      <img src="img/earth.png" class="img-fluid mt-5" alt="">
     </div>
   </section>
 
@@ -134,7 +189,7 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5 project" style="cursor: pointer;" onclick="window.open('https://iaco.me/post/001')">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0 project-img" src="img/light.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0 project-img" src="assets/images/light.jpg" alt="">
           <div class="middle">vivaci.life</div>
         </div>
         <div class="col-xl-4 col-lg-5">
