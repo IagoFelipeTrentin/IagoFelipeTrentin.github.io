@@ -284,11 +284,15 @@ body {
 .contact-section .card, .about-section .card {
   border: 0;
   border-bottom: 0.25rem solid var(--light);
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .contact-section .card:hover, .about-section .card:hover {
-  background: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0.75;
 }
 
 .contact-section .card h4, .about-section .card h4 {
