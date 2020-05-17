@@ -5,8 +5,8 @@ description: "CARE for LIFE — a self-development journey"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
-google_analytics: ''
-disqus: ''
+google_analytics: 'UA-158716451-1'
+# disqus: ''
 mailchimp-list: 'https://iaco.us18.list-manage.com/subscribe/post?u=82fec2178ac93f2d0f847d6fb&amp;id=61d5b52fe8'
 include: ["_pages"]
 permalink: /post/:title/
