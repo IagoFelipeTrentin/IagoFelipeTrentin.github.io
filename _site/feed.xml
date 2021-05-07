@@ -1,389 +1,375 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
-    <title>IΛCO VIVΛCI</title>
-    <description>IΛCO VIVΛCI</description>
+    <title>IACO VIVACI</title>
+    <description>Build YOU.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 May 2020 15:23:17 +0200</pubDate>
-    <lastBuildDate>Sat, 16 May 2020 15:23:17 +0200</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Fri, 07 May 2021 19:47:50 +0200</pubDate>
+    <lastBuildDate>Fri, 07 May 2021 19:47:50 +0200</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    <webfeeds:cover image="https://iaco.me/assets/images/iaco-logo-share-yt.jpg" />
+    <webfeeds:icon>https://iaco.me/assets/images/safari-pinned-tab.svg</webfeeds:icon>
+    <webfeeds:logo>https://iaco.me/assets/images/safari-pinned-tab.svg</webfeeds:logo>
+    <webfeeds:accentColor>0EA2F1</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+    <webfeeds:analytics id="UA-158716451-1" engine="GoogleAnalytics"/>
     
+      
       <item>
-        <title>Powerful things you can do with the Markdown editor</title>
-        <description>&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+        <title>🌈🚀 Clarifying our Life Purpose – My Manifesto: Who is IΛCO VIVΛCI?</title>
+        <description>
+          &lt;a href="http://localhost:4000//post/003/"&gt;
+          
+            &lt;img class=&quot;webfeedsFeaturedVisual&quot; src=&quot;https://i1.ytimg.com/vi/oh_yZdOjuk0/maxresdefault.jpg&quot; alt=&quot;🌈🚀 Clarifying our Life Purpose – My Manifesto: Who is IΛCO VIVΛCI?&quot;&gt;
+          
+          &lt;/a&gt;
+          &lt;p&gt;Full post and video 👉 &lt;a href="http://localhost:4000//post/003/"&gt;http://localhost:4000//post/003/&lt;/a&gt;&lt;/p&gt;
+          &lt;p&gt;—&lt;/p&gt;
+          &lt;p&gt;Being our true authentic self is not that simple, but it all starts with self understanding, being vulnerable, acting with integrity and coherence 🙂&lt;/p&gt;
 
-&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+&lt;p&gt;Don’t be afraid to be yourself, to evolve yourself, and to care for yourself 💯&lt;/p&gt;
 
-&lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
+&lt;p&gt;You will always feel a little bit of fear, it’s human, but don’t let it block you from living your life!&lt;/p&gt;
 
-&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
+&lt;p&gt;I did this video to give the example and inspire you to look for your life purpose, too 🙂&lt;/p&gt;
 
+&lt;p&gt;After a 1-year-long process to clarify my life purpose, I wanted to share with the world:&lt;/p&gt;
+
+&lt;p&gt;Who I was, who I am, and who I — IΛCO VIVΛCI — am working to become!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;You can comment in any of my videos, I will always reply&lt;/p&gt;
+
+&lt;p&gt;Ask me if you didn’t understand something, or share your own purpose(s) 😉&lt;/p&gt;
+
+          &lt;p&gt;&lt;a href="http://localhost:4000//post/003/"&gt;Send a comment/message 💬&lt;/a&gt;&lt;/p&gt;
+        </description>
+        <pubDate>Wed, 23 Sep 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000//post/003/</link>
+        <guid isPermaLink="true">http://localhost:4000//post/003/</guid>
+        
+        <category>tgc</category>
+        
+        <category>purpose</category>
+        
+        <category>integrity</category>
+        
+        <category>coherence</category>
+        
+        <category>authenticity</category>
+        
+        <category>vulnerability</category>
+        
+        <category>life</category>
+        
+        
+        <category>🧭 purpose</category>
+        
+        
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i1.ytimg.com/vi/oh_yZdOjuk0/maxresdefault.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://i1.ytimg.com/vi/oh_yZdOjuk0/maxresdefault.jpg"/>
+        
+      </item>
+    
+    
+      
+      <item>
+        <title>⏳ 5 tips to avoid PROCRASTINATION and Manage your Time (try them)</title>
+        <description>
+          &lt;a href="http://localhost:4000//post/002/"&gt;
+          
+            &lt;img class=&quot;webfeedsFeaturedVisual&quot; src=&quot;https://i1.ytimg.com/vi/HY5WaiBv1so/maxresdefault.jpg&quot; alt=&quot;⏳ 5 tips to avoid PROCRASTINATION and Manage your Time (try them)&quot;&gt;
+          
+          &lt;/a&gt;
+          &lt;p&gt;Full post and video 👉 &lt;a href="http://localhost:4000//post/002/"&gt;http://localhost:4000//post/002/&lt;/a&gt;&lt;/p&gt;
+          &lt;p&gt;—&lt;/p&gt;
+          &lt;p&gt;We all procrastinate… But how can we avoid that? One answer: your own system! 😱💤&lt;/p&gt;
+
+&lt;p&gt;In our lives there are things we want to do (because we like, or even love them ❤️), and things we have to do (because they are important, or mandatory ⚠️).&lt;/p&gt;
+
+&lt;p&gt;The idea is simple: to have more time and energy for the things that matter the most, it is important to have a system in place, a system that supports you!&lt;/p&gt;
+
+&lt;p&gt;The 5 tips to help you avoiding procrastination, managing your time and getting things done:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;==highlight==&lt;/li&gt;
-  &lt;li&gt;*escaped characters*&lt;/li&gt;
+  &lt;li&gt;Your calendar reminds you about what you need to do;&lt;/li&gt;
+  &lt;li&gt;Your timers allow you to have control of your time and progress;&lt;/li&gt;
+  &lt;li&gt;By delegating you give tasks to those best suited for the job;&lt;/li&gt;
+  &lt;li&gt;Entering a Flow State allows you to be more focused and make better use of your time;&lt;/li&gt;
+  &lt;li&gt;And by paying attention to your health triangle you will have more energy and focus because your body and mind are working at their best capacity.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;writing-code-blocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code class=&quot;highlighter-rouge&quot;&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+&lt;p&gt;And you, tell me, how do you avoid procrastination?&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;.my-link {
-    text-decoration: underline;
-}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;html&quot;&gt;HTML&lt;/h4&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ml-1 mr-1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fab fa-twitter&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;css&quot;&gt;CSS&lt;/h4&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.c&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#999988&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;italic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.err&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#a61717&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#e3d2d2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;js&quot;&gt;JS&lt;/h4&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// alertbar later&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scrollTop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;280&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeOut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;python&quot;&gt;Python&lt;/h4&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;ruby&quot;&gt;Ruby&lt;/h4&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'redcarpet'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redcarpet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_html&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;c&quot;&gt;C&lt;/h4&gt;
-
-&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
-
-&lt;p&gt;The quick brown jumped over the lazy.&lt;/p&gt;
-
-&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
-
-&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
-
-&lt;p&gt;Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Jun 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000//powerful-things-markdown-editor/</link>
-        <guid isPermaLink="true">http://localhost:4000//powerful-things-markdown-editor/</guid>
+          &lt;p&gt;&lt;a href="http://localhost:4000//post/002/"&gt;Send a comment/message 💬&lt;/a&gt;&lt;/p&gt;
+        </description>
+        <pubDate>Fri, 05 Jun 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000//post/002/</link>
+        <guid isPermaLink="true">http://localhost:4000//post/002/</guid>
+        
+        <category>tgc</category>
+        
+        <category>procrastination</category>
+        
+        <category>time</category>
+        
+        <category>timemanagement</category>
+        
+        <category>organized</category>
+        
+        <category>schedule</category>
+        
+        <category>calendar</category>
+        
+        <category>flow</category>
+        
+        <category>health</category>
+        
+        <category>healthtriangle</category>
+        
+        <category>enjoylife</category>
+        
+        <category>tips</category>
+        
+        <category>lifehacks</category>
+        
+        <category>ideas</category>
         
         
-        <category>Jekyll</category>
+        <category>🗂️ organized</category>
         
-        <category>tutorial</category>
+        
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i1.ytimg.com/vi/HY5WaiBv1so/maxresdefault.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://i1.ytimg.com/vi/HY5WaiBv1so/maxresdefault.jpg"/>
         
       </item>
     
-      <item>
-        <title>The first mass-produced book to deviate from a rectilinear format</title>
-        <description>&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
-
-&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
-
-&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Jun 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000//first-mass-produced/</link>
-        <guid isPermaLink="true">http://localhost:4000//first-mass-produced/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
     
+      
       <item>
-        <title>Education must also train one for quick, resolute and effective thinking.</title>
-        <description>&lt;p&gt;There are lots of powerful things you can do with the Markdown editor&lt;/p&gt;
+        <title>🌱 1 year Vegan: Chocolate Cake (and Mousse) for my Vegan Birthday</title>
+        <description>
+          &lt;a href="http://localhost:4000//post/001/"&gt;
+          
+            &lt;img class=&quot;webfeedsFeaturedVisual&quot; src=&quot;https://i1.ytimg.com/vi/nXhxMjtquus/maxresdefault.jpg&quot; alt=&quot;🌱 1 year Vegan: Chocolate Cake (and Mousse) for my Vegan Birthday&quot;&gt;
+          
+          &lt;/a&gt;
+          &lt;p&gt;Full post and video 👉 &lt;a href="http://localhost:4000//post/001/"&gt;http://localhost:4000//post/001/&lt;/a&gt;&lt;/p&gt;
+          &lt;p&gt;—&lt;/p&gt;
+          &lt;p&gt;Last weekend I celebrated my 1st vegan-bday! 🥳&lt;/p&gt;
 
-&lt;p&gt;If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+&lt;p&gt;This adventure has just began and I’ve already had great surprises, met amazing people, and saw I can change the world!&lt;/p&gt;
 
-&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+&lt;p&gt;It all started with my quest to improve my nutrition, because I love to take good care #tgc of my body and health 🧖‍♂️.&lt;/p&gt;
 
-&lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
+&lt;p&gt;Most people don’t realize, but our food is fundamental for an optimum health (together with rest 🧘‍♂️ and exercise 💪).&lt;/p&gt;
 
-&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
-
+&lt;p&gt;But soon, reading trustworthy sources (attention to fake news) I saw veganism has far more benefits than simply health:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;==highlight==&lt;/li&gt;
-  &lt;li&gt;*escaped characters*&lt;/li&gt;
+  &lt;li&gt;it’s also about #tgc and respecting animals (not just pets, everyone),&lt;/li&gt;
+  &lt;li&gt;and also about #tgc and preserving our planet (the only one we got 😉)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;writing-code-blocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+&lt;p&gt;All people I met after I started this adventure are good, some even curious:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;where do you get your proteins?&lt;/li&gt;
+  &lt;li&gt;why such an “extreme” choice?&lt;/li&gt;
+  &lt;li&gt;but and milk/eggs/honey? 🐮🐔🐝&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code class=&quot;highlighter-rouge&quot;&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+&lt;p&gt;Some are already vegan (they inspire me, and often share “vegan secrets” about &lt;del&gt;conquering the world&lt;/del&gt; 🤫 cooking).&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;.my-link {
-    text-decoration: underline;
-}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using Rouge.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
-
-&lt;p&gt;The quick brown jumped over the lazy.&lt;/p&gt;
-
-&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
-
-&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
-
-&lt;p&gt;Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Jun 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000//education/</link>
-        <guid isPermaLink="true">http://localhost:4000//education/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Accumulated experience of social living</title>
-        <description>&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
-
-&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
-
-&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
-
-&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
+&lt;p&gt;And some even said I inspired them to make conscious choices (I love to hear I inspired someone to #tgc of their self)!&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 12 Jun 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000//acumulated-experience/</link>
-        <guid isPermaLink="true">http://localhost:4000//acumulated-experience/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>About Bundler</title>
-        <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
+  &lt;p&gt;« Run to the rescue with love and peace will follow »&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; files inform &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; about the gem requirements in your site. If your site doesn’t have these Gemfiles, you can omit &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec&lt;/code&gt; and just &lt;code class=&quot;highlighter-rouge&quot;&gt;run jekyll serve&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;When you run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; uses the gems and versions as specified in &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; to ensure your Jekyll site builds with no compatibility or dependency conflicts.&lt;/p&gt;
-
-&lt;p&gt;For more information about how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 12 May 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000//about-bundler/</link>
-        <guid isPermaLink="true">http://localhost:4000//about-bundler/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>We all wait for summer</title>
-        <description>&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
-
-&lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000//we-all-wait-for-summer/</link>
-        <guid isPermaLink="true">http://localhost:4000//we-all-wait-for-summer/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Tree of Codes</title>
-        <description>&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
-
-&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
+  &lt;p&gt;— Joaquin Phoenix (Oscars 2020)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
+&lt;p&gt;And now… The famous recipes! 😋&lt;/p&gt;
 
-&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000//tree-of-codes/</link>
-        <guid isPermaLink="true">http://localhost:4000//tree-of-codes/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Red Riding Hood</title>
-        <description>&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
-
-&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000//red-riding/</link>
-        <guid isPermaLink="true">http://localhost:4000//red-riding/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Press and education</title>
-        <description>&lt;p&gt;Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.&lt;/p&gt;
-
-&lt;p&gt;Education must also train one for quick, &lt;strong&gt;resolute and effective thinking&lt;/strong&gt;. To think incisively and to think for one’s self is very difficult.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.&lt;/p&gt;
-
-&lt;p&gt;The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?&lt;/p&gt;
-
-&lt;p&gt;We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000//press-and-education/</link>
-        <guid isPermaLink="true">http://localhost:4000//press-and-education/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Options for creating a new site with Jekyll</title>
-        <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
+&lt;h2 id=&quot;chocolate-cake&quot;&gt;CHOCOLATE CAKE&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;To install the Jekyll site into the directory you’re currently in, run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; . If the existing directory isn’t empty, you can pass the –force option with jekyll new . –force.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; automatically initiates &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to install the dependencies required. (If you don’t want Bundler to install the gems, use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog --skip-bundle&lt;/code&gt;.)&lt;/li&gt;
-  &lt;li&gt;By default, the Jekyll site installed by &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; uses a gem-based theme called Minima. With gem-based themes, some of the directories and files are stored in the theme-gem, hidden from your immediate view.&lt;/li&gt;
-  &lt;li&gt;We recommend setting up Jekyll with a gem-based theme but if you want to start with a blank slate, use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog --blank&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;To learn about other parameters you can include with &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt;, type &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new --help&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;325g flour&lt;/li&gt;
+  &lt;li&gt;100g cocoa&lt;/li&gt;
+  &lt;li&gt;20g baking powder&lt;/li&gt;
+  &lt;li&gt;200g sugar&lt;/li&gt;
+  &lt;li&gt;½ tsp. of salt&lt;/li&gt;
+  &lt;li&gt;500ml vegetable milk&lt;/li&gt;
+  &lt;li&gt;1 tsp. of vanilla extract&lt;/li&gt;
+  &lt;li&gt;60ml vegetable oil of neutral taste&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000//options-for-creating-new-site-with-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000//options-for-creating-new-site-with-jekyll/</guid>
+
+&lt;p&gt;Mix all dry ingredients; Mix the dry and wet ingredients in an electric mixer; Cook for 45min in a 175°C temperature.&lt;/p&gt;
+
+&lt;p&gt;Tooping ingredients:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;150g of dark chocolate&lt;/li&gt;
+  &lt;li&gt;100ml of vegetable milk&lt;/li&gt;
+  &lt;li&gt;75g of icing sugar&lt;/li&gt;
+  &lt;li&gt;½ tsp. of vanilla extract&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Melt the chocolate in a double boiler; Mix all the other ingredients; Wait a few minutes and then cover the whole cake; Eat the delicious cake!&lt;/p&gt;
+
+&lt;h2 id=&quot;chocolate-mousse&quot;&gt;CHOCOLATE MOUSSE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;175g of dark chocolate&lt;/li&gt;
+  &lt;li&gt;150g of aquafaba&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Melt the chocolate in a double boiler; Beat the aquafaba with an electric mixer until it becomes whisked aquafaba (“snow white” texture); Mix them both well; Put in the refrigerator for at least a few hours (between 4h and 48h, your pick); Eat the delicious mousse!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;And you: how do you improve your life?&lt;/p&gt;
+
+          &lt;p&gt;&lt;a href="http://localhost:4000//post/001/"&gt;Send a comment/message 💬&lt;/a&gt;&lt;/p&gt;
+        </description>
+        <pubDate>Sun, 08 Mar 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000//post/001/</link>
+        <guid isPermaLink="true">http://localhost:4000//post/001/</guid>
+        
+        <category>tgc</category>
+        
+        <category>govegan</category>
+        
+        <category>vegan</category>
+        
+        <category>vbday</category>
+        
+        <category>nutrition</category>
+        
+        <category>animals</category>
+        
+        <category>planet</category>
+        
+        <category>earth</category>
+        
+        <category>recipes</category>
+        
+        <category>cake</category>
+        
+        <category>mousse</category>
         
         
-        <category>Jekyll</category>
+        <category>🧬 healthy/longevous</category>
         
-        <category>tutorial</category>
+        <category>🌱 vegan</category>
+        
+        
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i1.ytimg.com/vi/nXhxMjtquus/maxresdefault.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://i1.ytimg.com/vi/nXhxMjtquus/maxresdefault.jpg"/>
         
       </item>
+    
+    
+      
+      <item>
+        <title>🍪 Protein Vegan Cookies: just me trying new recipes at home</title>
+        <description>
+          &lt;a href="http://localhost:4000//post/000/"&gt;
+          
+            &lt;img class=&quot;webfeedsFeaturedVisual&quot; src=&quot;https://i1.ytimg.com/vi/k_bXvm2oESs/maxresdefault.jpg&quot; alt=&quot;🍪 Protein Vegan Cookies: just me trying new recipes at home&quot;&gt;
+          
+          &lt;/a&gt;
+          &lt;p&gt;Full post and video 👉 &lt;a href="http://localhost:4000//post/000/"&gt;http://localhost:4000//post/000/&lt;/a&gt;&lt;/p&gt;
+          &lt;p&gt;—&lt;/p&gt;
+          &lt;p&gt;Hello world!&lt;/p&gt;
+
+&lt;p&gt;Finally my 1st video ;)&lt;/p&gt;
+
+&lt;p&gt;A super easy&amp;amp;delicious dessert: cookies!&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: I am not cooking shirtless in the video, not this time ;)&lt;/p&gt;
+
+&lt;p&gt;These cookies are vegan and full-of-proteins!&lt;/p&gt;
+
+&lt;p&gt;I changed to a vegan diet a few months ago, and I had some difficulties in maintaining macros intake – now, these cookies will surely help me 💪😃&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Recipe (&lt;em&gt;updated&lt;/em&gt;)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2 tbsp (30g) peanut butter&lt;/li&gt;
+  &lt;li&gt;3 tbsp (40g) flour (almond/wheat/oat/linseed)&lt;/li&gt;
+  &lt;li&gt;2 tsp (3g) cocoa&lt;/li&gt;
+  &lt;li&gt;1 tbsp (10g) sugar demerara/turbinado&lt;/li&gt;
+  &lt;li&gt;(optional) some sunflower seeds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;STEPS:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;mix peanut, cocoa, and sugar&lt;/li&gt;
+  &lt;li&gt;add flour, and some water to help mixing&lt;/li&gt;
+  &lt;li&gt;microwave for 30s–60s&lt;/li&gt;
+  &lt;li&gt;eat it :D&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;10g–15g of Proteins, depending on the type of flour&lt;/li&gt;
+  &lt;li&gt;It has all essential amino acids&lt;/li&gt;
+  &lt;li&gt;You can control the carbs and fats by reducing sugar and changing the flour&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the skinny ones (just like me) trying to gain muscle, it is a good option to add to our diets 😋&lt;/p&gt;
+
+&lt;p&gt;A recipe that is good for us, and our planet, too ;)&lt;/p&gt;
+
+&lt;p&gt;See you in our next adventure!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;And you: how do you improve your life?&lt;/p&gt;
+
+          &lt;p&gt;&lt;a href="http://localhost:4000//post/000/"&gt;Send a comment/message 💬&lt;/a&gt;&lt;/p&gt;
+        </description>
+        <pubDate>Fri, 16 Aug 2019 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000//post/000/</link>
+        <guid isPermaLink="true">http://localhost:4000//post/000/</guid>
+        
+        <category>tgc</category>
+        
+        <category>govegan</category>
+        
+        <category>vegan</category>
+        
+        <category>nutrition</category>
+        
+        <category>animals</category>
+        
+        <category>planet</category>
+        
+        <category>earth</category>
+        
+        <category>recipes</category>
+        
+        <category>cookie</category>
+        
+        
+        <category>🧬 healthy/longevous</category>
+        
+        <category>🌱 vegan</category>
+        
+        
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i1.ytimg.com/vi/k_bXvm2oESs/maxresdefault.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://i1.ytimg.com/vi/k_bXvm2oESs/maxresdefault.jpg"/>
+        
+      </item>
+    
+    
+      
+      
     
   </channel>
 </rss>
