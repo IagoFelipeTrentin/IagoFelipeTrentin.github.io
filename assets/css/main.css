@@ -3582,7 +3582,7 @@ footer .footer-social li:last-child {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:768px) {
 	#go-top {
-        bottom: 35px;
+        bottom: 20px;
     	right: 20px;
 	}
 
