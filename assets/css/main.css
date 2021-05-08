@@ -938,6 +938,10 @@ input::-moz-focus-inner {
 	background: #454a59;
 }
 
+ /* -------------------------------------------------------------------
+  * Pulsating Circle Dot
+  * ------------------------------------------------------------------- */
+
 .pulsating-circle {
     position: absolute;
     left: 15px;
@@ -3577,7 +3581,7 @@ footer .footer-social li:last-child {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:768px) {
 	#go-top {
-        bottom: 25px;
+        bottom: 35px;
     	right: 20px;
 	}
 
