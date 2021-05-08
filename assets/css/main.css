@@ -3543,7 +3543,7 @@ footer .footer-social li:last-child {
 #go-top a {
 	text-decoration: none;
 	border: 0 none;
-	display: inline-block;
+	display: block;
 	height: 50px;
 	width: 50px;
 	line-height: 50px;
@@ -3557,6 +3557,7 @@ footer .footer-social li:last-child {
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	margin-bottom: 5px;
 }
 
 #go-top a i {
