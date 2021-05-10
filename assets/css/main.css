@@ -1,11 +1,3 @@
-/* Import partials from `sass_dir` (defaults to `_sass`) */
-@import
-	"syntax",
-    "starsnonscss"
-;
-
-/* Delete above */
-
 /* ===================================================================
  *
  *  Howdy v1.0 Main Stylesheet
@@ -124,7 +116,7 @@ body {
     --irose: #F2C4C4;
     --iwhite: #FFFFFF;
     --iblack: #000000;
-    --igray: #828282;
+    --igray: #B3B3B3;
     --dark: #080808;
     --light: #E2E2E2;
     /* Use: var(--ivioletdark) */

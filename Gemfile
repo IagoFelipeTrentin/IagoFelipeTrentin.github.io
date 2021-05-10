@@ -20,3 +20,5 @@ group :jekyll_plugins do
     gem 'rouge'
     gem "nokogiri", ">= 1.11.0"
 end
+
+gem "webrick", "~> 1.7"
