@@ -7,7 +7,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>{{site.name}} | {{ page.title }}</title>
+    <title>{{ site.name }} | {{ page.title }}</title>
     <meta name="description" content="IACO VIVACI Homepage">
     <meta name="author" content="{{ page.author.name }}">
 
@@ -17,9 +17,9 @@
 
 	<!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="{{ site.baseurl }}assets/css/base.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}assets/css/vendor.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/base.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/vendor.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
     <!-- script
     ================================================== -->
@@ -68,11 +68,11 @@
    <header>
 
    	<div class="header-logo">
-	      <a href="index.html">IACO</a>
+	      <a href="{{ site.baseurl }}">{{ site.name }}</a>
 	   </div>
 
 		<a id="header-menu-trigger" href="#0">
-		 	<span class="header-menu-text">Menu</span>
+		 	<span class="header-menu-text">MENU</span>
 		  	<span class="header-menu-icon"></span>
 		</a>
 
@@ -80,7 +80,7 @@
 
 			<a href="#0" class="close-button" title="close"><span>Close</span></a>
 
-	   	<h3>I&Lambda;CO.</h3>
+	   	<h3>{{ site.name }}</h3>
 
 			<ul class="nav-list">
 				<!-- <li class="current">
@@ -88,21 +88,13 @@
                         <i class="fa fa-home"></i> Home
                     </a>
                 </li> -->
-				<li>
-                    <a class="smoothscroll" href="#about" title="">
-                        <i class="fa fa-user-tie"></i> Socials
+                {% for item in page.menu %}
+                <li>
+                    <a class="smoothscroll" href="{{ item.url }}" title="{{ item.name }}" {% if item.newtab %}target="_blank"{% endif %}>
+                        <i class="fa {{ item.icon }}"></i> {{ item.name }}
                     </a>
                 </li>
-				<li>
-                    <a class="smoothscroll" href="#skills" title="">
-                        <i class="fa fa-envelope"></i> E-mail
-                    </a>
-                </li>
-				<li>
-                    <a class="smoothscroll" href="#credentials" title="">
-                        <i class="fa fa-plus-square"></i> More
-                    </a>
-                </li>
+                {% endfor %}
 				<!-- <li>
                     <a class="smoothscroll" href="#portfolio" title="">
                         <i class="fa fa-briefcase"></i> Works
