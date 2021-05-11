@@ -1,0 +1,77 @@
+---
+layout: default
+# featured: true
+# hidden: true
+
+# image: "/assets/images/intro-bg.jpg"
+pretitle: "Hello, I am"
+title: IΛCO VIVΛCI.
+description: "Your lifestyles are your identity — Who are you?<br>Build your lifestyles. Build YOU."
+
+author: iaco
+# editor: iaco
+# special-guest: iaco
+# contributor: iaco
+categories: [ 🧬 healthy/longevous, 🌱 vegan ]
+# tags: [ tgc, govegan, vegan, nutrition, animals, planet, earth, recipes, cookie ]
+
+site-menu: true     # show the default site menu
+menu:
+    - name: "Socials"
+      icon: "fa fa-user-tie"
+      url: "#about"
+      newtab: false
+      show-in-intro: true
+    - name: "E-mail"
+      icon: "fa fa-envelope"
+      url: "#main"
+      newtab: false
+      show-in-intro: true
+    - name: "More"
+      icon: "fa fa-plus-square"
+      url: "https://iaco.me"
+      newtab: true
+      show-in-intro: false
+
+youtube: nXhxMjtquus
+# igtv: B1OwTHPiG5M
+# tweet: 1236801534240882689
+# tiktok: 6801989263727578373
+
+head-bar-title: "Head bar title here"
+head-bar-links: [
+["icon", "url", "title", "subtitle"],
+["icon", "url", "title", "subtitle"]
+]
+
+head-square-title: "Head square title here"
+head-square-links: [
+["icon", "url", "small-title"],
+["icon", "url", "small-title"]
+]
+
+foot-bar-title: "Foot bar title here"
+foot-bar-links: [
+["icon", "url", "title", "subtitle"],
+["icon", "url", "title", "subtitle"]
+]
+
+foot-square-title: "Foot square title here"
+foot-square-links: [
+["icon", "url", "small-title"],
+["icon", "url", "small-title"]
+]
+---
+
+- TOC
+{:toc}
+
+# <h>I.</h> My current level of familiarity with some technologies. {#p1}
+
+My *education* background _gave_ me a **solid** solid foundation in informatics, which allowed me to fluidly learn and use various technologies in my profession.
+
+## avatar azer azerf v"-( g"v" ())
+
+Another ___paRRagraph___ reztzert <m>azerazer</m> azer
+
+> kdjqnf qskdj qsdfkjh <m>llaoid</m>
