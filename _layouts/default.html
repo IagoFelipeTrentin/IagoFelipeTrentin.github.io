@@ -9,9 +9,9 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>{{ site.name }} | {{ page.title }}</title>
-    <meta name="description" content="IACO VIVACI Homepage">
-    <meta name="author" content="{{ page.author.name }}">
+    <title>{{ site.name }} | {{ page.pretitle }} {{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="{{ site.authors[page.author].name }}">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -205,8 +205,7 @@
                 <div class="section-intro">
                     {{ content }}
 
-                    <h2 class="animate-this"><em>I.</em> My current level of familiarity with some technologies.</h2>
-                    <p class="animate-this">My education background gave me a solid foundation in informatics, which allowed me to fluidly learn and use various technologies in my profession.</p>
+                    <h2 class="animate-this"></h2>
                 </div>
                 <div class="section-intro">
                     <h3 class="animate-this">
@@ -970,7 +969,13 @@
                 <div class="pulsating-circle"></div><i class="far fa-comment-alt"></i>
             </a>
             <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-arrow-up fa-sm"></i></a>
-            <div id="notif">
+            <script>
+                function notifRead() {
+                    document.cookie = "notif=" + new Date();
+                    alert(document.cookie);
+                }
+            </script>
+            <div id="notif" onclick="notifRead();">
                 This is just a message to test how it will display in the corner of the screen of my website and let's see!
                 <br>
                 <a class="smoothscroll" title="Back to Top" href="#top">

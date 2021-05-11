@@ -279,7 +279,7 @@ blockquote:before {
 	font-size: 10rem;
 	line-height: 0px;
 	margin: 0;
-	color: rgba(0, 0, 0, 0.3);
+	color: var(--iredlight);
 	font-family: arial, sans-serif;
 	position: absolute;
 	top: 3.6rem;
@@ -1361,7 +1361,33 @@ input::-moz-focus-inner {
 	font-family: "cardo-italic", serif;
     font-weight: bolder;
 	line-height: 1.375;
+	color: var(--ibluelight);
+    padding-top: 50px;
+}
+
+.section-intro h2 {
+	font-family: "cardo-italic", serif;
+    font-weight: bolder;
+	line-height: 1.375;
+	color: var(--ivioletlight);
+    padding-top: 25px;
+}
+
+.section-intro h1:before,
+.section-intro h2:before {
 	color: var(--igray);
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1rem;
+}
+
+.section-intro h1:before {
+	content: "\F054\A0\A0\A0";
+    vertical-align: 6px;
+}
+
+.section-intro h2:before {
+	content: "\F054\F054\A0\A0\A0";
+    vertical-align: 4px;
 }
 
 .section-intro.with-bottom-sep {
@@ -3565,7 +3591,7 @@ footer .footer-social li:last-child {
     overflow-y: auto;
     overflow-x: hidden;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 #go-top #notif a {

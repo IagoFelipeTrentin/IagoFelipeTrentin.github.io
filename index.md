@@ -63,15 +63,30 @@ foot-square-links: [
 ]
 ---
 
+{% comment %}
 - TOC
 {:toc}
+{% endcomment %} 
 
-# <h>I.</h> My current level of familiarity with some technologies. {#p1}
+We all **procrastinate**...
 
-My *education* background _gave_ me a **solid** solid foundation in informatics, which allowed me to fluidly learn and use various technologies in my profession.
+But how can we *avoid* that? One answer: your own *system*! 😱💤
 
-## avatar azer azerf v"-( g"v" ())
+# My current level of familiarity with some technologies. {#p1}
 
-Another ___paRRagraph___ reztzert <m>azerazer</m> azer
+In our lives there are things we want to do (because we like, or even love them ❤️), and things we have to do (because they are important, or mandatory ⚠️).
 
-> kdjqnf qskdj qsdfkjh <m>llaoid</m>
+> ***The idea is simple***: to have more <m>time</m> and <m>energy</m> for the things that matter the most, it is important to have a system in place, a system that supports you!
+
+## 5 tips
+
+The <h>5</h> tips to help you avoiding procrastination, managing your time and getting things done:
+- Your calendar reminds you about what you need to do;
+- Your timers allow you to have control of your time and progress;
+- By delegating you give tasks to those best suited for the job;
+- Entering a Flow State allows you to be more focused and make better use of your time;
+- And by paying attention to your health triangle you will have more energy and focus because your body and mind are working at their best capacity.
+
+# This is the title second
+
+And you, tell me, how do you avoid procrastination?
