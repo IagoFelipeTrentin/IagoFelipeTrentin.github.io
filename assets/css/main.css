@@ -104,6 +104,7 @@ html {
 html,
 body {
 	height: 100%;
+    word-break: break-word;
 }
 
 :root {
@@ -155,7 +156,7 @@ a:focus {
  *
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "noto-bold", sans-serif;
+	font-family: "cardo-bold", serif;
 	color: var(--igray);
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -230,6 +231,7 @@ p.lead {
 
 em {
     color: var(--ibluelight);
+    font-style: normal;
 }
 
 i, strong, b {
@@ -1750,14 +1752,14 @@ header .header-logo a {
 #home {
 	background: var(--dark);
 	width: 100%;
-	height: 100%;
+	min-height: 100vh;
 	background-image: url(../images/intro-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	min-height: 804px;
+	/* min-height: 804px; */
 	position: relative;
 }
 
@@ -1786,7 +1788,7 @@ header .header-logo a {
 
 .home-content-table {
 	width: 100%;
-	height: 100%;
+	min-height: 100vh;
 	display: table;
 	position: relative;
     /* background: linear-gradient(to bottom, #080808AA 0%, transparent 100%); */
@@ -1863,6 +1865,7 @@ header .header-logo a {
 }
 
 .scroll-icon {
+    opacity: 1;
 	position: absolute;
 	width: 60px;
 	height: 48px;
@@ -1873,8 +1876,14 @@ header .header-logo a {
     margin: 0 auto !important;
     text-align: center !important;
 	color: #FFFFFF !important;
-	-webkit-animation: vertical 3s ease infinite;
-	animation: vertical 3s ease infinite;
+	-webkit-animation: 5s ease-in 0s 1 fadeIn, vertical 3s ease infinite;
+	animation: 5s ease-in 0s 1 fadeIn, vertical 3s ease infinite;
+}
+
+@keyframes fadeIn {
+      0% { opacity: 0; }
+      80% { opacity: 0; }
+      100% { opacity: 1; }
 }
 
 /* vertical animation */
@@ -1981,16 +1990,16 @@ header .header-logo a {
 
 @media only screen and (max-width:600px) {
 	#home {
-		min-height: 702px;
+		/* min-height: 702px; */
 	}
 
 	.home-content-tablecell {
-		vertical-align: middle;
+		/* vertical-align: middle; */
 	}
 
 	.home-content-tablecell .row {
-		padding-top: 9rem;
-		padding-bottom: 3rem;
+		padding-top: 10rem;
+		padding-bottom: 8rem;
 	}
 
     .home-content-tablecell .home-section-links {
@@ -2011,6 +2020,7 @@ header .header-logo a {
 
 	.scroll-icon {
 		right: 10px;
+        /* bottom: 0; */
 	}
 
 }
@@ -2032,7 +2042,7 @@ header .header-logo a {
 
 @media only screen and (max-width:400px) {
 	#home {
-		min-height: 654px;
+		/* min-height: 654px; */
 	}
 
 	.home-content-tablecell .home-bottom-text {
