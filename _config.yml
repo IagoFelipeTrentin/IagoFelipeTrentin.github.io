@@ -24,6 +24,21 @@ authors:
     twitter: https://iaco.me/youtube
     description: "I Care for Life"
 
+# Menu
+menu:
+    - name: "IACO.io"
+      icon: "fa fa-power-off"
+      url: "/"
+      newtab: false
+    - name: "YouTube"
+      icon: "fab fa-youtube"
+      url: "/youtube"
+      newtab: true
+    - name: "Instagram"
+      icon: "fab fa-instagram"
+      url: "/instagram"
+      newtab: true
+
 # Plugins
 plugins:
   - jekyll-paginate

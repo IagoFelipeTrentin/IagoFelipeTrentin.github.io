@@ -1753,7 +1753,6 @@ header .header-logo a {
 	background: var(--dark);
 	width: 100%;
 	min-height: 100vh;
-	background-image: url(../images/intro-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
