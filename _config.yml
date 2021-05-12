@@ -47,6 +47,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 
+sass:
+  style: compact
+
 # Archives
 jekyll-archives:
   enabled:

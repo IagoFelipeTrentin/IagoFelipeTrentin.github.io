@@ -204,7 +204,6 @@ h3, .h03 {
 h4, .h04 {
     font-size: 1.6rem;
     line-height: 1.76;
-    font-style: italic;
 }
 
 h5, .h05 {
@@ -1379,6 +1378,10 @@ input::-moz-focus-inner {
     padding-top: 25px;
 }
 
+.section-intro img {
+    padding: 0 10%;
+}
+
 .section-intro.with-bottom-sep {
     padding-bottom: 4.2rem;
     position: relative;
@@ -2164,9 +2167,9 @@ header .header-logo a {
 }
 
 .more-wrap {
-    width: 94%;
-    max-width: 1300px;
-    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1300px; */
+    /* margin: 0 auto; */
 }
 
 .more-wrap:before,
@@ -2183,10 +2186,21 @@ header .header-logo a {
 .more-2 {
     pointer-events: none;
     float: left;
-    float: bottom;
-    width: 50%;
+    width: calc(50% - 40px);
+    max-height: 110px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 10px;
+    margin-top: calc(28.125vw - 160px);
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background-color: #000000BB; */
+}
+
+.more-1 .intro,
+.more-2 .intro {
+    overflow: hidden;
+    max-height: 100px;
 }
 
 .more-bg-1:hover+.more-1,
@@ -2195,9 +2209,8 @@ header .header-logo a {
 }
 
 .more-1 {
-    padding-right: 9rem;
+    padding-right: 20px;
     position: relative;
-    z-index: 2;
 }
 
 .more-1 p.lead {
@@ -2209,7 +2222,7 @@ header .header-logo a {
 }
 
 .more-2 {
-    padding-left: 9rem;
+    padding-left: 20px;
     position: relative;
 }
 
@@ -2269,9 +2282,10 @@ header .header-logo a {
     .more-1,
     .more-2 {
         float: none;
-        width: 100%;
+        width: calc(100% - 40px);
         padding-left: 45px;
         padding-right: 45px;
+        margin: 0 20px;
     }
 
     .more-1 .intro,
@@ -2281,14 +2295,12 @@ header .header-logo a {
 
     .more-1 {
         position: absolute;
-        top: 0;
-        padding-top: 5rem;
+        top: calc(56.25vw - 120px);
     }
 
     .more-2 {
         position: absolute;
-        top: 0;
-        padding-top: calc(56.25vw + 5rem);
+        top: calc(112.5vw - 120px);
     }
 
     .more-1 .more-bg-1 {
@@ -2317,7 +2329,6 @@ header .header-logo a {
     .more-2 {
         padding-left: 25px;
         padding-right: 25px;
-        text-align: center;
     }
 }
 
@@ -3537,13 +3548,13 @@ footer .footer-social li:last-child {
 }
 
 #go-top a:visited {
-    background: #000000BB;
+    background: var(--iblack);
     color: var(--iwhite);
 }
 
 #go-top a:hover,
 #go-top a:focus {
-    background: #000000BB;
+    background: var(--iblack);
     color: var(--iwhite);
 }
 

@@ -88,7 +88,7 @@
     <header>
 
         <div class="header-logo">
-            <a href="{{ site.baseurl }}">{{ site.name }}</a>
+            <a href="{{ site.baseurl }}/">{{ site.name }}</a>
         </div>
 
         <a id="header-menu-trigger" href="#0">
@@ -206,6 +206,12 @@
                     {{ content }}
 
                     <h2 class="animate-this"></h2>
+                    <script>
+                        var i, list = document.querySelectorAll("#main .section-intro p, #main .section-intro h1, #main .section-intro h2, #main .section-intro img, #main .section-intro li, #main .section-intro blockquote");
+                        for (i = 0; i < list.length; ++i) {
+                            list[i].classList.add('animate-this');
+                        }
+                    </script>
                 </div>
                 <div class="section-intro">
                     <h3 class="animate-this">
@@ -240,41 +246,39 @@
     <section id="more">
 
         <div class="more-wrap">
-            <a href="./index.html#more">
-                <div class="more-bg-1" style="background-image: url('https://i1.ytimg.com/vi/HY5WaiBv1so/maxresdefault.jpg');"></div>
+            {% if page.previous.url %}
+            {% assign left = page.previous %}
+            {% else %}
+            {% assign left = site.posts[0] %}
+            {% endif %}
+            <a href="{{ site.baseurl }}{{ left.url }}">
+                <div class="more-bg-1" style="background-image: url('{{ left.image }}');"></div>
                 <div class="more-1">
                     <div class="intro">
-                        <h3 class="animate-this">READ MORE HERE</h3>
-                        <h1 class="animate-this">Title A</h1>
-                        <!-- <p class="lead animate-this">Description.</p> -->
+                        <h3 class="animate-this">READ MORE</h3>
+                        <h4 class="animate-this">{{ left.title }}</h4>
+                        <!-- <p class="lead animate-this">{{ left.description }}</p> -->
                     </div>
                 </div>
             </a>
-            <a href="./index.html#main">
-                <div class="more-bg-2" style="background-image: url('https://i1.ytimg.com/vi/oh_yZdOjuk0/maxresdefault.jpg');"></div>
+            {% if page.next.url %}
+            {% assign right = page.next %}
+            {% elsif page.previous.url == site.posts[1] %}
+            {% assign right = site.posts[2] %}
+            {% else %}
+            {% assign right = site.posts[1] %}
+            {% endif %}
+            <a href="{{ site.baseurl }}{{ right.url }}">
+                <div class="more-bg-2" style="background-image: url('{{ right.image }}');"></div>
                 <div class="more-2">
                     <div class="intro">
-                        <h3 class="animate-this">MORE FOR YOU</h3>
-                        <h1 class="animate-this">Title B</h1>
-                        <!-- <p class="lead animate-this">Description.</p> -->
+                        <h3 class="animate-this">FEATURED</h3>
+                        <h4 class="animate-this">{{ right.title }}</h4>
+                        <!-- <p class="lead animate-this">{{ right.description }}</p> -->
                     </div>
                 </div>
             </a>
         </div>
-
-        <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
-            {% if page.previous.url %}
-            <a class="prev d-block col-md-6 mb-3" href="{{ site.baseurl }}{{page.previous.url}}"> <i class="fas fa-chevron-circle-left"></i> {{page.previous.title}}</a>
-            {% else %}
-            <a class="prev d-block col-md-6"></a>
-            {% endif %}
-            {% if page.next.url %}
-            <a class="next d-block col-md-6 text-right" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} <i class="fas fa-chevron-circle-right"></i> </a>
-            {% endif %}
-            <div class="clearfix"></div>
-        </div>
-
-
 
     </section>
 

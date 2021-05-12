@@ -66,7 +66,7 @@ foot-square-links: [
 {% comment %}
 - TOC
 {:toc}
-{% endcomment %} 
+{% endcomment %}
 
 We all **procrastinate**...
 
@@ -79,6 +79,8 @@ In our lives there are things we want to do (because we like, or even love them 
 > ***The idea is simple***: to have more <m>time</m> and <m>energy</m> for the things that matter the most, it is important to have a system in place, a system that supports you!
 
 ## 5 tips
+
+![](/assets/images/default-bg.jpg "Test of Image")
 
 The <h>5</h> tips to help you avoiding procrastination, managing your time and getting things done:
 - Your calendar reminds you about what you need to do;
