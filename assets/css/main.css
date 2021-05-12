@@ -445,7 +445,7 @@ dl,
 form,
 .fluid-video-wrapper,
 .ss-custom-select {
-	margin-bottom: 3rem;
+	margin-bottom: 2.5rem;
 }
 
 /* -------------------------------------------------------------------
@@ -966,7 +966,7 @@ input::-moz-focus-inner {
     margin-left: -100%;
     margin-top: -100%;
     border-radius: 45px;
-    background-color:var(--ivioletvivid);
+    background-color: var(--iredvivid);
     animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
 }
 
@@ -978,7 +978,7 @@ input::-moz-focus-inner {
     display: block;
     width: 100%;
     height: 100%;
-    background-color: var(--ivioletvivid);
+    background-color: var(--iredvivid);
     border-radius: 15px;
     box-shadow: 0 0 8px rgba(0,0,0,.3);
     animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
@@ -1371,23 +1371,6 @@ input::-moz-focus-inner {
 	line-height: 1.375;
 	color: var(--ivioletlight);
     padding-top: 25px;
-}
-
-.section-intro h1:before,
-.section-intro h2:before {
-	color: var(--igray);
-    font-family: 'Font Awesome 5 Free';
-    font-size: 1rem;
-}
-
-.section-intro h1:before {
-	content: "\F054\A0\A0\A0";
-    vertical-align: 6px;
-}
-
-.section-intro h2:before {
-	content: "\F054\F054\A0\A0\A0";
-    vertical-align: 4px;
 }
 
 .section-intro.with-bottom-sep {
@@ -2082,10 +2065,6 @@ header .header-logo a {
 
 #main .section-intro {
 	text-align: left;
-}
-
-#main .section-intro > p {
-
 }
 
 #main .section-intro h3 {
@@ -3543,6 +3522,7 @@ footer .footer-social li:last-child {
 }
 
 #go-top a {
+    cursor: pointer;
 	text-decoration: none;
 	border: 0 none;
 	display: block;
@@ -3550,8 +3530,8 @@ footer .footer-social li:last-child {
 	width: 50px;
 	line-height: 50px;
 	text-align: center;
-	background-color: #000000BB;
-	color: #FFFFFF;
+	background-color: var(--iblack);
+	color: var(--iwhite);
 	text-align: center;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-in-out;
@@ -3568,14 +3548,29 @@ footer .footer-social li:last-child {
 }
 
 #go-top a:visited {
-	background: #000000;
-	color: #FFFFFF;
+	background: #000000BB;
+	color: var(--iwhite);
 }
 
 #go-top a:hover,
 #go-top a:focus {
-    background: #000000;
-	color: #FFFFFF;
+    background: #000000BB;
+	color: var(--iwhite);
+}
+
+#go-top .active {
+    background-color: var(--igray) !important;
+}
+
+#go-top #dark-bg {
+    display: none;
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #000000BB;
 }
 
 #go-top #notif {
@@ -3588,7 +3583,7 @@ footer .footer-social li:last-child {
     max-width: calc(600px - 85px);
     min-width: calc(40vw - 85px);
     background: var(--iblack);
-    padding: 10px;
+    padding: 20px;
     overflow-y: auto;
     overflow-x: hidden;
     text-align: center;

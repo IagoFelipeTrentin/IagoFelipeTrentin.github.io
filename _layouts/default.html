@@ -9,7 +9,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>{{ site.name }} | {{ page.pretitle }} {{ page.title }}</title>
+    <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}">
     <meta name="author" content="{{ site.authors[page.author].name }}">
 
@@ -965,17 +965,40 @@
         </div> <!-- end row -->
 
         <div id="go-top">
-            <a onclick="$('#notif').toggle();" title="Notifications">
+            <div id="dark-bg"></div>
+            <script>
+                function compareColors(left, right) {
+                    var dummy = $('<div/>');
+
+                    $(dummy).css('color', left);
+                    var adjustedLeft = $(dummy).css('color');
+
+                    $(dummy).css('color', right);
+                    var adjustedRight = $(dummy).css('color');
+
+                    return adjustedLeft == adjustedRight;
+                }
+
+                function notifRead() {
+                    document.cookie = "inotif=" + new Date().getTime();
+                    $('.pulsating-circle').hide();
+                    $('#button-notif').toggleClass("active");
+                    $('#button-notif i').toggleClass("far fa-comment-alt");
+                    $('#button-notif i').toggleClass("fa fa-times");
+                }
+            </script>
+            <a id="button-notif" onclick="notifRead(); $('#notif').toggle(); $('#dark-bg').toggle();" title="Notifications">
                 <div class="pulsating-circle"></div><i class="far fa-comment-alt"></i>
             </a>
             <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-arrow-up fa-sm"></i></a>
             <script>
-                function notifRead() {
-                    document.cookie = "notif=" + new Date();
-                    alert(document.cookie);
-                }
+                document.addEventListener('DOMContentLoaded', function() {
+                    if (document.cookie.split('; ').find(row => row.startsWith('inotif=')).split('=')[1] > 0) {
+                        $('.pulsating-circle').hide();
+                    }
+                }, false);
             </script>
-            <div id="notif" onclick="notifRead();">
+            <div id="notif">
                 This is just a message to test how it will display in the corner of the screen of my website and let's see!
                 <br>
                 <a class="smoothscroll" title="Back to Top" href="#top">
@@ -983,9 +1006,12 @@
                 </a>
                 I like to see how it will display if the text is really really big enourmously big hahahah
                 <br>
-                I like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahah
+                I like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is
+                really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahah
                 <br>
-                I like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahah
+                I like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is
+                really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see
+                how it will display if the text is really really big enourmously big hahahah
             </div>
         </div>
     </footer>
